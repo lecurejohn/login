@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>E-Carnet| Espace connexion</title>
+</head>
+<body>
+   <div class="container" id="container">
+
+
+        <div class="form-container sign-up" >
+            <form action="">
+                <h1> S'inscrire</h1>                        
+                    <span> S'enrégistre avec </span>
+                    <input type="text" name="nom" placeholder="Votre Nom"/>
+                    <input type="email" name="email" placeholder="Votre E-mail"/>
+                    <input type="password" name="pass" placeholder="12JKJKK@::"/>
+                    <button > S'inscrire</button>
+                    <div class="social-icons">
+                        <a href="#" class="icons" ><i class="bx bxl-google"></i></a>
+                        <a href="#" class="icons" ><i class="bx bxl-facebook"></i></a>
+                    </div>
+            </form>
+        </div>
+
+
+        <div class="form-container sign-in visible" id="form-container">
+            <div class="min-text">
+                    <h1>E-Carnet</h1>
+                    <p> Mes données à tout moment</p>
+            </div>
+            <form action="">
+                <h1 class="connecter">Se connecter</h1>
+                    
+                <input type="email" name="email" placeholder=" E-mail">
+                <input type="password" name="pass" placeholder=" Mot de passe">
+                <div class="min-inscrire">
+                    <a href="#">Mot de passe oublié ?</a>
+                    <a href="#">S'inscrire</a>
+                    <button id="inscrire_mobile"> S'inscrire</button>
+                </div>
+                <button>Se connecter</button>
+                <div class="social-icons">
+                    <a href="#" class="icons" ><i class="bx bxl-google"></i></a>
+                    <a href="#" class="icons" ><i class="bx bxl-facebook"></i></a>
+                </div>
+
+            </form>
+        </div>
+
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1> Bienvenu sur <br/> E-Carnet</h1>
+                    <p>Se connecter avec E-mail & Password</p>
+                    <button class="hidden" id="login"> Se connecter</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>E-Carnet</h1>
+                    <p> Mes données à tout moment</p>
+                    <button class="hidden" id="register"> S'inscrire</button>
+                </div>
+            </div>
+        </div>
+   </div>
+
+   <div class="inscrire-container hidden" id="inscrire-container">
+        <div class="min-text">
+            <h1>E-Carnet</h1>
+            <p> Mes données à tout moment</p>
+        </div>
+        <form action="">
+            <span> S'enrégistre avec </span>
+            <input type="text" name="nom" placeholder=" Nom"/>
+            <input type="email" name="email" placeholder="E-mail"/>
+            <input type="password" name="pass" placeholder="Password"/>
+            
+            <button> S'inscrire</button>
+            <div class="social-icons">
+                <a href="#" class="icons" ><i class="bx bxl-google"></i></a>
+                <a href="#" class="icons" ><i class="bx bxl-facebook"></i></a>
+            </div>
+            <div class="">
+                <a href="#">J'ai déjà un compte</a>
+            </div>
+        </form>
+    </div>
+
+   <script src="login.js"></script>
+
+</body>
+</html>
