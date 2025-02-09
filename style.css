@@ -207,7 +207,7 @@ body{
     display: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 300px) {
 
     body{
         background-color: #dec8c8;
